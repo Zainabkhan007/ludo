@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-+9_f8)9ty3!hhehfx+i7t&t-b+9jia9*@0y-)5*93*_wsh^y@5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -63,6 +63,11 @@ CHANNEL_LAYERS = {
     },
 }
 
+# settings.py
+PUSHER_APP_ID = "2016879"
+PUSHER_KEY = "4f7a40b6031d990f0233"
+PUSHER_SECRET = "255d907f25f0944f9db2"
+PUSHER_CLUSTER = "ap4"
 
 TEMPLATES = [
     {
