@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-+9_f8)9ty3!hhehfx+i7t&t-b+9jia9*@0y-)5*93*_wsh^y@5
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
+ADMIN_EMAIL = "admin@gmail.com"
+ADMIN_PASSWORD = "admin123" 
 
 # Application definition
 
